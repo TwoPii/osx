@@ -1,0 +1,14 @@
+{
+    "extends": "stylelint-config-recommended",
+    "rules": {
+        "alpha-value-notation": "percentage",
+        "color-function-notation": "legacy",
+        "hue-degree-notation": "number",
+        "value-keyword-case": [
+            "lower",
+            {
+                "ignoreKeywords": ["currentColor", "optimizeLegibility"]
+            }
+        ]
+    }
+}
