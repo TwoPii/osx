@@ -1,5 +1,4 @@
 {
-    "extends": "stylelint-config-recommended",
     "rules": {
         "alpha-value-notation": "percentage",
         "color-function-notation": "legacy",
@@ -10,5 +9,6 @@
                 "ignoreKeywords": ["currentColor", "optimizeLegibility"]
             }
         ]
-    }
+    },
+    "customSyntax": "postcss-styled-syntax"
 }
